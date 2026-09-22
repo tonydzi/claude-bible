@@ -93,6 +93,33 @@ MIT. Take it, fork it, teach with it.
 
 ---
 
+<!--we-ask:start-->
+
+## Contributors welcome — and here is what we are missing
+
+We spend a lot of time answering other people's issues. It was fair to say out loud
+what we have not built ourselves:
+
+- [Score your own CLAUDE.md against docs/SPEC.md and tell us where the anatomy does not fit](https://github.com/tonydzi/claude-bible/issues/7)
+- [Port the rule index to AGENTS.md and report what broke](https://github.com/tonydzi/claude-bible/issues/8)
+- [Add worked examples from a domain that is not ours](https://github.com/tonydzi/claude-bible/issues/9)
+- [Memory index-vs-body: hard caps, pointers, archive discipline, a guard that goes red](https://github.com/tonydzi/claude-bible/issues/1)
+- [Test-after-build gate: the break-it-on-purpose checklist before anything is called done](https://github.com/tonydzi/claude-bible/issues/2)
+
+Issues labelled [`accepted`](https://github.com/tonydzi/claude-bible/issues?q=is%3Aissue+is%3Aopen+label%3Aaccepted) are scoped, free to take, and nobody is on them.
+Comment **"claiming this"** — no permission needed — and it is yours for 7 days.
+New here? Start with [`good first issue`](https://github.com/tonydzi/claude-bible/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+
+**You keep the copyright to your code.** No CLA, no assignment, ever — your contribution goes
+in under this repo's existing license, the same terms as ours. We answer every issue and PR
+within 48 hours, including "no, and here is why"; our silence is our bug, so ping the thread.
+
+Full deal: [CONTRIBUTING.md](https://github.com/tonydzi/.github/blob/main/CONTRIBUTING.md)
+
+<!--we-ask:end-->
+
+---
+
 <!--ecosystem-map:start-->
 
 ## 🧩 One piece of a working system
