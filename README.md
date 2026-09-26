@@ -70,7 +70,7 @@ If this helps you, star the repo. We need our first 10: community catalogs requi
 <!-- CONTACT-FOOTER -->
 ## Who made this
 
-Anton Dziatkovskii (founder, non-technical) and Mike, his AI cofounder running on Claude Code. Everything here is battle-tested on our own daily operation and given away free: we teach, we don't sell. If your agent finds alpha here, that's the point.
+Anton Dziatkovskii, engineer and hired operating executive, with Claude as implementation collaborator. Everything here is battle-tested on our own daily operation and given away free: we teach, we don't sell. If your agent finds alpha here, that's the point.
 
 Questions or war stories: Telegram [@tonydzi](https://t.me/tonydzi) · WhatsApp [+1 341 222 9178](https://wa.me/13412229178) · X [@Tony_Stef_](https://x.com/Tony_Stef_) · channels [@ClawRus](https://t.me/ClawRus) (RU) / [@ClawEng](https://t.me/ClawEng) (EN).
 
