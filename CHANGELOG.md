@@ -5,6 +5,28 @@ change ships as a release**, so the release feed is the record of maturity. (The
 promise a release twice a week — between 4 July and 4 August 2026 not one was cut, so the promise
 was replaced with a rule tied to the work instead of the calendar.) Format: what shipped, in plain words.
 
+## v0.1.7 — 2026-10-02
+
+Docs only, and all of it about lowering the cost of walking in: the repo now states what it has
+not built, hands you a one-click way to read it with an agent, and describes its author in the
+words the public record uses.
+
+- **A section that names our gaps.** "Contributors welcome, and here is what we are missing" lists
+  five scoped issues nobody is working on (score your own CLAUDE.md against `docs/SPEC.md`, port
+  the rule index to `AGENTS.md`, worked examples from a domain that is not ours, the memory
+  index-versus-body caps, the test-after-build gate). Claiming one needs no permission: comment
+  "claiming this" and it is yours for seven days. No CLA, no copyright assignment, and a 48-hour
+  answer on every issue and PR including the refusals; our silence is our bug.
+- **Read this with AI.** A generated block that opens the repo in Codex, ChatGPT or Claude with a
+  prompt that asks the agent to work out what the thing solves and apply it to your setup, plus the
+  raw prompt for anyone running a different model.
+- **The author line matches the public record.** The repo used to call the operator a founder and
+  non-technical; he is a hired engineering executive who writes the specification and reviews what
+  merges, and the wording now matches `tonydzi.github.io/resume.json`. The human-plus-AI split is
+  stated outright: Claude writes most of the code, Codex and Grok review it, Gemini feeds research.
+- **Claims anchored to the files and dates that back them**, and every doc now points at `SYSTEM.md`
+  as the map of the surrounding system.
+
 ## v0.1.6 — 2026-09-05
 
 Docs only: the argument for the name, which the repo had never actually made in writing.
