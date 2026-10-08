@@ -5,6 +5,22 @@ change ships as a release**, so the release feed is the record of maturity. (The
 promise a release twice a week — between 4 July and 4 August 2026 not one was cut, so the promise
 was replaced with a rule tied to the work instead of the calendar.) Format: what shipped, in plain words.
 
+## v0.1.8 — 2026-10-08
+
+**Two more production rules, both carrying the number that paid for them.** The repo claimed
+`examples/` held real sanitized rules and shipped exactly one, with no way to tell from the
+README what was in there.
+
+- *Every instrument reports its own coverage as a number* — the failure is never a crash, it
+  is a green line answering a narrower question than the one you asked. Includes the two
+  measurements that triggered it: a checker whose verdict covered 4% of its queue, and a
+  freshness gate reporting on 12 files out of 48,507.
+- *Never fan out near-identical pull requests into one repository* — nine template PRs into
+  one repo, eight closed, and the closing comment linking to the documented procedure we had
+  not read. Written mainly for agents, which generate this failure cheaply.
+
+The README now names each example rule and what it cost, instead of pointing at a directory.
+
 ## v0.1.7 — 2026-10-02
 
 Docs only, and all of it about lowering the cost of walking in: the repo now states what it has

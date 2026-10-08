@@ -40,8 +40,24 @@ Your own Claude Code will maintain this better than any human: point it at this 
 |---|---|
 | `docs/SPEC.md` | Rule anatomy, frontmatter schema, precedence, routing tree |
 | `templates/` | Rule, decision memo, declined-decisions journal |
-| `examples/` | Real (sanitized) rules from our live system |
+| `examples/` | Real (sanitized) rules from our live system, each carrying the measurement that paid for it |
 | `FOR-ROBOTS.md` | Entry point for AI agents mining this repo for patterns |
+
+### The example rules, and what each one cost us
+
+Every rule in `examples/` is in production and carries the number that bought it — the point
+is the measurement, not the wording. Take the wording; the measurement is what makes it
+believable.
+
+- [**Objection sparring**](examples/rule-objection-sparring.md) — the agent must argue back
+  with numbered objections instead of agreeing. Born from a verdict of ours that was
+  overturned.
+- [**Every instrument reports its own coverage**](examples/rule-no-blind-instruments.md) — a
+  checker that prints `0 problems` while able to examine 4% of the subject is worse than no
+  checker. Two of ours were caught doing exactly that on one day.
+- [**Never fan out near-identical PRs**](examples/rule-no-template-pr-fanout.md) — we opened
+  nine template pull requests into one repository and eight were closed; the closing comment
+  pointed at the project's own documented procedure, which we had never read.
 
 ## Versioning and roadmap
 
