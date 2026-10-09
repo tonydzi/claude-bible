@@ -147,6 +147,8 @@ not written as a demo — and it runs on its own: nothing here phones home to th
 
 **See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)**
 
+**Want your machine in the fleet? → [Join the fleet](https://github.com/tonydzi/join-the-fleet)** (15 minutes, one link, no account with us)
+
 Its closest neighbours in the **governance** layer: [`agent-leash`](https://github.com/tonydzi/agent-leash) · [`charm-os`](https://github.com/tonydzi/charm-os) · [`agent-approval-gate`](https://github.com/tonydzi/agent-approval-gate)
 
 <!--ecosystem-map:end-->
