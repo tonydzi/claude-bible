@@ -39,9 +39,11 @@ Your own Claude Code will maintain this better than any human: point it at this 
 | Path | What it is |
 |---|---|
 | `docs/SPEC.md` | Rule anatomy, frontmatter schema, precedence, routing tree |
-| `templates/` | Rule, decision memo, declined-decisions journal |
+| `templates/` | Rule, decision memo, declined-decisions journal, project instruction worksheet |
 | `examples/` | Real (sanitized) rules from our live system, each carrying the measurement that paid for it |
 | `FOR-ROBOTS.md` | Entry point for AI agents mining this repo for patterns |
+| `docs/publishing-agent-instructions.md` | Source-linked examples, safe publication, client loading and a reversible pilot |
+| `templates/project-agent-instructions.md` | Worksheet for project-specific commands, boundaries and handoff evidence |
 
 ### The example rules, and what each one cost us
 
