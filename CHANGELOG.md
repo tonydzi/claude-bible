@@ -5,6 +5,20 @@ change ships as a release**, so the release feed is the record of maturity. (The
 promise a release twice a week — between 4 July and 4 August 2026 not one was cut, so the promise
 was replaced with a rule tied to the work instead of the calendar.) Format: what shipped, in plain words.
 
+## v0.1.9 — 2026-10-18
+
+**The repo now ships a real CLAUDE.md, not only the theory of one.** A curated list closed our
+earlier submission as "documentation and templates, light on substance". Fair. The substance was
+always the file we run, so here it is.
+
+- `examples/global-claude-md-iron-rules.md`: the 20 iron rules from the top of our live global
+  CLAUDE.md (about 90 KB, v6.8), sanitized, each tied to the dated failure that paid for it, plus
+  what we learned writing it (receipts beat CAPS; most rules are written against a default).
+- `CLAUDE.md` is now a one-line `@AGENTS.md` import, the single-source pattern used by ruff and
+  sentry, so Claude Code and every AGENTS.md reader load the same contract.
+- The author line in `FOR-ROBOTS.md` and two docs pages now matches the public record (engineering
+  executive, Python/C++). The fleet count says 8 machines, not 5.
+
 ## v0.1.8 — 2026-10-08
 
 **Two more production rules, both carrying the number that paid for them.** The repo claimed

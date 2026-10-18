@@ -16,7 +16,7 @@ So: not "config", which implies a machine consumes it; not "prompt", which impli
 
 ## Where mysticism goes to die
 
-A lone founder plus a religious metaphor is a well-known failure genre. The antidote is technical density, so here is the density.
+A lone operator plus a religious metaphor is a well-known failure genre. The antidote is technical density, so here is the density.
 
 The word "Bible" in this system is load-bearing in the most boring possible way:
 

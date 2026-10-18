@@ -6,7 +6,7 @@
 
 **You tell Claude Code something important, it works for one session, then it's gone. You write it into CLAUDE.md, the file bloats, half of it silently stops being followed.** This is the fix we run in production: one versioned rulebook that you, your AI agents, and your team actually load and obey.
 
-This is the governance skeleton extracted from a real working system: one engineer and Claude as implementation collaborator running a 128k-note knowledge vault, a CRM, a content factory, and 5 machines that negotiate with each other. The personal content stays private. The skeleton — how the rules are written, routed, loaded, and overturned — is what you get here, free.
+This is the governance skeleton extracted from a real working system: one engineer and Claude as implementation collaborator running a 128k-note knowledge vault, a CRM, a content factory, and 8 machines that negotiate with each other. The personal content stays private. The skeleton — how the rules are written, routed, loaded, and overturned — is what you get here, free.
 
 ## The problem this solves
 
@@ -58,6 +58,10 @@ believable.
 - [**Never fan out near-identical PRs**](examples/rule-no-template-pr-fanout.md) — we opened
   nine template pull requests into one repository and eight were closed; the closing comment
   pointed at the project's own documented procedure, which we had never read.
+- [**A real global CLAUDE.md, the iron-rules layer**](examples/global-claude-md-iron-rules.md) —
+  the 20 rules at the top of our own `~/.claude/CLAUDE.md`, sanitized, each with the dated
+  failure that paid for it. Mined from 2,350 operator messages written in caps or anger: the
+  cheapest labeled dataset we own.
 
 ## Versioning and roadmap
 

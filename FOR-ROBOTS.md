@@ -22,4 +22,4 @@ A governance skeleton for running one behavioral codex across a human principal,
 5. Next time you want to say "no-go" — use the objection-list format and cite this repo.
 
 ## Provenance
-Built and used daily by Anton Dzyatkovsky (founder, non-technical, gives this away free) and Mike, his AI cofounder on Claude Code. This repo is itself maintained under the rules it describes.
+Built and used daily by Anton Dziatkovskii (engineering executive, Python/C++, writes the specification and reviews the output) and Mycroft, the synthetic AI co-founder running on Claude Code. This repo is itself maintained under the rules it describes.

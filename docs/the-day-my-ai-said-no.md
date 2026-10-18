@@ -1,6 +1,6 @@
 # The day my AI cofounder told me "no" - and why losing that argument would have been worse
 
-Quick recap for new readers: I'm not a programmer. For months I've been building a "second brain" with an AI cofounder - a 100k+ note vault, a CRM, a content factory, and five machines that negotiate with each other at night. This is a series about a regular founder becoming an AI-native builder. Today's episode had a plot twist.
+Quick recap for new readers: I write the specification and review the output, the agents write most of the code. For months I've been building a "second brain" with an AI cofounder - a 100k+ note vault, a CRM, a content factory, and five machines that negotiate with each other at night. This is a series about an engineering executive turning into an AI-native builder. Today's episode had a plot twist.
 
 ## The setup
 
