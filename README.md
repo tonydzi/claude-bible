@@ -1,4 +1,54 @@
-# The Bible Framework — one behavioral codex for you, your AI agents, and your team
+# claude-bible
+
+A rulebook system for Claude Code and other AI agents: every rule is one small file, with a date and an owner, and a short index tells the agent where to find it.
+
+**Who it's for:** anyone whose CLAUDE.md keeps growing and whose agent forgets or ignores half of it.
+**What you get:** a spec, three templates and four real example rules, so your rules stay short, current and traceable.
+
+## Quick start
+1. Copy the `templates/` folder into your repo or notes folder.
+2. Write your first three rules with `templates/rule-template.md`. One rule per file, short.
+3. Add one index line per rule to your `CLAUDE.md` (or `AGENTS.md`), and start a declined-decisions journal from the template.
+
+**Done when:** your CLAUDE.md holds only short pointer lines, and each pointer opens a rule file with `origin`, `date_established` and `status` filled in.
+
+> Want an AI agent to do it for you? Paste this to Claude Code / Codex / Cursor:
+> "Read the 'For AI agents' section of https://github.com/tonydzi/claude-bible and set it up for me."
+
+## For AI agents
+
+### Preconditions
+- No runtime, package or account is needed. This repo is a spec plus templates (Markdown only). `AGENTS.md` in the repo says: there is nothing to execute, and `docs/SPEC.md` is the normative contract.
+- Ask the human: where their rules live now (CLAUDE.md, AGENTS.md, a notes folder), and where the new rules folder should go.
+
+### Install
+This is adoption, not installation:
+```bash
+git clone https://github.com/tonydzi/claude-bible
+cp -r claude-bible/templates <your-rules-folder>
+```
+Then read `docs/SPEC.md` (frontmatter schema, precedence, routing tree) before writing rules.
+
+### Configure
+- Create rules from `templates/rule-template.md`, decisions from `templates/decision-memo-template.md`, and the journal from `templates/declined-decisions-template.md`.
+- Add one trigger, essence and pointer line per rule to the human's CLAUDE.md or AGENTS.md. Rules the human states are written down with their `origin`; ask the human which rules to migrate first.
+
+### Verify
+There is no command to run. Check structurally, and report which you checked:
+1. Every rule's frontmatter has all required fields from `docs/SPEC.md` (`title`, `type`, `date_established`, `status`, `origin`, `authored_by`, `audience`; `supersedes` is optional).
+2. One rule per file, and no rule lives in two places (grep its trigger phrase).
+3. Every pointer in CLAUDE.md or AGENTS.md resolves to an existing file, e.g. `grep -o "](\([^)]*\))" CLAUDE.md` and confirm each path exists.
+
+### Uninstall / rollback
+Delete the copied rules folder and remove the pointer lines you added. Restore CLAUDE.md from the backup taken before you edited it.
+
+### Rules for the agent
+- Back up the human's CLAUDE.md or AGENTS.md before editing, and do not compress or rewrite existing rules.
+- Never edit an old rule in place: supersede it with a dated record. A rule marked with an explicit owner is changed only by that owner.
+- Do not edit `docs/SPEC.md` in this repo without a human; it is the contract downstream copies rely on.
+- Examples must stay sanitized: no real names, chat ids, paths or secrets.
+
+## Details
 
 📖 **Docs: <https://tonydzi.github.io/claude-bible/>** — the nine mechanics, the 5-minute quickstart and a section map of the spec, on one page.
 
