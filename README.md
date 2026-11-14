@@ -27,6 +27,7 @@ This is adoption, not installation:
 git clone https://github.com/tonydzi/claude-bible
 cp -r claude-bible/templates <your-rules-folder>
 ```
+PowerShell: `Copy-Item -Recurse claude-bible\templates <your-rules-folder>`. If `<your-rules-folder>` already exists, the files end up in its `templates/` subfolder; if it does not exist, it is created holding the templates directly. Tell the human which one happened.
 Then read `docs/SPEC.md` (frontmatter schema, precedence, routing tree) before writing rules.
 
 ### Configure
@@ -37,7 +38,7 @@ Then read `docs/SPEC.md` (frontmatter schema, precedence, routing tree) before w
 There is no command to run. Check structurally, and report which you checked:
 1. Every rule's frontmatter has all required fields from `docs/SPEC.md` (`title`, `type`, `date_established`, `status`, `origin`, `authored_by`, `audience`; `supersedes` is optional).
 2. One rule per file, and no rule lives in two places (grep its trigger phrase).
-3. Every pointer in CLAUDE.md or AGENTS.md resolves to an existing file, e.g. `grep -o "](\([^)]*\))" CLAUDE.md` and confirm each path exists.
+3. Every pointer in CLAUDE.md or AGENTS.md resolves to an existing file. The index line format in `docs/SPEC.md` ends with ``Canon: `<rule-file-name>` ``, so list them with `grep -o 'Canon: `[^`]*`' CLAUDE.md` (PowerShell: `Select-String -Pattern 'Canon: `[^`]*`' CLAUDE.md`) and confirm each named file exists in the rules folder. If that command prints nothing, you have NOT verified anything: either no pointer lines were added yet, or they use another format (then check that format's paths the same way). Report the number of pointers and the number that resolved; they must be equal and not zero.
 
 ### Uninstall / rollback
 Delete the copied rules folder and remove the pointer lines you added. Restore CLAUDE.md from the backup taken before you edited it.
