@@ -1,0 +1,6 @@
+{
+  "name": "rules-as-files",
+  "version": "0.1.0",
+  "description": "Keep rules for you, your team and your AI agents as one markdown file per rule, with a short index line in CLAUDE.md or AGENTS.md. Covers rule intake, precedence, a declined-decisions journal and objection lists. Instructions only.",
+  "contextFileName": "plugin/skills/rules-as-files/SKILL.md"
+}

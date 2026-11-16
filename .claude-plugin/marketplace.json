@@ -1,0 +1,18 @@
+{
+  "name": "claude-bible",
+  "owner": {
+    "name": "Anton Dziatkovskii",
+    "url": "https://github.com/tonydzi"
+  },
+  "metadata": {
+    "description": "Rules for people and AI agents kept as one markdown file per rule."
+  },
+  "plugins": [
+    {
+      "name": "rules-as-files",
+      "source": "./plugin",
+      "description": "Keep rules for you, your team and your AI agents as one markdown file per rule, with a short index line in CLAUDE.md or AGENTS.md. Covers rule intake, precedence, a declined-decisions journal and objection lists. Instructions only.",
+      "version": "0.1.0"
+    }
+  ]
+}

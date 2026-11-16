@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "rules-as-files",
+  "displayName": "rules-as-files",
+  "version": "0.1.0",
+  "description": "Keep rules for you, your team and your AI agents as one markdown file per rule, with a short index line in CLAUDE.md or AGENTS.md. Covers rule intake, precedence, a declined-decisions journal and objection lists. Instructions only.",
+  "author": {
+    "name": "Anton Dziatkovskii",
+    "url": "https://github.com/tonydzi"
+  },
+  "homepage": "https://github.com/tonydzi/claude-bible",
+  "repository": "https://github.com/tonydzi/claude-bible",
+  "license": "MIT",
+  "keywords": [
+    "rules",
+    "claude-md",
+    "agents-md",
+    "governance",
+    "decision-log",
+    "agent-instructions"
+  ],
+  "privacyPolicyUrl": "https://github.com/tonydzi/claude-bible/blob/main/PRIVACY.md",
+  "skills": "./skills/"
+}
