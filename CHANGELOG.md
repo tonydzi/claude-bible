@@ -5,6 +5,12 @@ change ships as a release**, so the release feed is the record of maturity. (The
 promise a release twice a week — between 4 July and 4 August 2026 not one was cut, so the promise
 was replaced with a rule tied to the work instead of the calendar.) Format: what shipped, in plain words.
 
+## Unreleased
+
+- `examples/global-claude-md-iron-rules.md`: synced to the live file (v7.11). Rule 16 now says a
+  watchdog only advises after the fact and only a closed list may block a call; rule 20 is now the
+  two-block reply (plain words with "was → now", plus one co-founder line).
+
 ## v0.1.9 — 2026-10-18
 
 **The repo now ships a real CLAUDE.md, not only the theory of one.** A curated list closed our

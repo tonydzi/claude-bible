@@ -10,7 +10,7 @@ audience: both
 
 # A real global CLAUDE.md: the iron-rules layer
 
-> Sanitized excerpt from a live `~/.claude/CLAUDE.md` (v6.8, about 90 KB, Russian original)
+> Sanitized excerpt from a live `~/.claude/CLAUDE.md` (v7.11, about 100 KB, Russian original)
 > that runs one operator, an AI co-founder agent, and an 8-machine fleet. Names, chat ids,
 > paths and secrets are removed. What stays is the shape: **20 short rules at the very top,
 > each one tied to a dated, real failure.** The bodies live elsewhere (the Bible, skills, hooks);
@@ -122,7 +122,9 @@ audience: both
 
 16. **AK-47.** The simplest thing the operator can repair with a hammer and an axe. A mature
     standard beats a home-made one. One source plus pointers. A protective mechanism (watchdog,
-    hook, new rule) only after the third dated incident and with a named consumer.
+    hook, new rule) only after the third dated incident and with a named consumer. A watchdog
+    only advises after the fact; the one thing allowed to block a call is a closed list
+    (irreversible deletion, secrets, anything leaving the building).
 
 17. **Tokens are money.** Cheapest tool first (SQL / grep / script → LLM on a chunk). Mechanical
     work goes to other paid subscriptions over a declared rail. A routine lives while it yields
@@ -136,7 +138,10 @@ audience: both
 19. **Every artifact → the vault** (original, note, links; secrets cut out), **every adventure →
     content**, **every product → multi-vendor and into other people's hands.**
 
-20. **Make it understandable.** Every reply ends with a plain-words block for the operator; the
+20. **Make it understandable.** Every reply to the operator has exactly two blocks: a plain-words
+    block (as if to a five-year-old, no jargon, any change or plan stated as "was → now" on the
+    task's own numbers, never "I'll show it later") and a short co-founder block that says
+    "right way / wrong way" with one fact. Short questions get one or two sentences. The
     operator's language; no long dashes.
 
 ## What we learned writing it
