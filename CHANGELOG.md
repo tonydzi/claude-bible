@@ -7,6 +7,14 @@ was replaced with a rule tied to the work instead of the calendar.) Format: what
 
 ## Unreleased
 
+## v0.1.10 - 2026-11-28
+
+**The rules now install as files, not only as prose to read.**
+
+- New `plugin/` with a marketplace entry and a Gemini extension manifest: the rules-as-files plugin
+  loads the iron rules into an agent the way a project rule file would.
+- README: human-first top, then the setup protocol for AI agents, fixed after an independent review.
+
 - `examples/global-claude-md-iron-rules.md`: synced to the live file (v7.11). Rule 16 now says a
   watchdog only advises after the fact and only a closed list may block a call; rule 20 is now the
   two-block reply (plain words with "was → now", plus one co-founder line).
